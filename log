@@ -1,0 +1,1393 @@
+yarn run v1.16.0
+$ webpack --debug
+Hash: 3129a522b2dbe9d0f58a
+Version: webpack 4.28.4
+Time: 4493ms
+Built at: 2019-08-07 00:09:33
+        Asset      Size  Chunks             Chunk Names
+      main.js  3.66 MiB    main  [emitted]  main
+manifest.json  26 bytes          [emitted]  
+Entrypoint main = main.js
+[./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js& 130 bytes {main} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/pug-plain-loader/index.js!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&lang=pug&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/pug-plain-loader!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90&lang=pug& 230 bytes {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {main} [built]
+[./src/App.vue] 1.04 KiB {main} [built]
+[./src/App.vue?vue&type=script&lang=js&] 332 bytes {main} [built]
+[./src/App.vue?vue&type=template&id=7ba5bd90&lang=pug&] 246 bytes {main} [built]
+[./src/main.js] 268 bytes {main} [built]
+[./src/plugins/vuetify.js] 143 bytes {main} [built]
+[./src/registerServiceWorker.js] 1020 bytes {main} [built]
+    + 504 hidden modules
+
+ERROR in ./node_modules/vuetify/src/components/VOverlay/VOverlay.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VOverlay/VOverlay.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VOverlay/VOverlay.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VOverlay/VOverlay.js
+ @ ./node_modules/vuetify/lib/components/VOverlay/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/styles/main.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/styles/main.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/styles/main.sass 4:14-112
+ @ ./node_modules/vuetify/lib/framework.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/styles/components/_selection-controls.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/styles/components/_selection-controls.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/styles/components/_selection-controls.sass 4:14-133
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.js
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VAppBar/VAppBar.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VAppBar/VAppBar.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VAppBar/VAppBar.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VAppBar/VAppBar.js
+ @ ./node_modules/vuetify/lib/components/VAppBar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VApp/VApp.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VApp/VApp.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VApp/VApp.sass 4:14-118
+ @ ./node_modules/vuetify/lib/components/VApp/VApp.js
+ @ ./node_modules/vuetify/lib/components/VApp/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VAlert/VAlert.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VAlert/VAlert.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VAlert/VAlert.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VAlert/VAlert.js
+ @ ./node_modules/vuetify/lib/components/VAlert/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VAvatar/VAvatar.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VAvatar/VAvatar.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VAvatar/VAvatar.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VAvatar/VAvatar.js
+ @ ./node_modules/vuetify/lib/components/VAvatar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBadge/VBadge.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBadge/VBadge.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBadge/VBadge.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VBadge/VBadge.js
+ @ ./node_modules/vuetify/lib/components/VBadge/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBanner/VBanner.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBanner/VBanner.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBanner/VBanner.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VBanner/VBanner.js
+ @ ./node_modules/vuetify/lib/components/VBanner/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBottomNavigation/VBottomNavigation.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBottomNavigation/VBottomNavigation.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBottomNavigation/VBottomNavigation.sass 4:14-131
+ @ ./node_modules/vuetify/lib/components/VBottomNavigation/VBottomNavigation.js
+ @ ./node_modules/vuetify/lib/components/VBottomNavigation/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBottomSheet/VBottomSheet.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBottomSheet/VBottomSheet.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBottomSheet/VBottomSheet.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VBottomSheet/VBottomSheet.js
+ @ ./node_modules/vuetify/lib/components/VBottomSheet/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBreadcrumbs/VBreadcrumbs.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBreadcrumbs/VBreadcrumbs.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBreadcrumbs/VBreadcrumbs.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VBreadcrumbs/VBreadcrumbs.js
+ @ ./node_modules/vuetify/lib/components/VBreadcrumbs/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBtn/VBtn.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBtn/VBtn.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBtn/VBtn.sass 4:14-118
+ @ ./node_modules/vuetify/lib/components/VBtn/VBtn.js
+ @ ./node_modules/vuetify/lib/components/VBtn/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VBtnToggle/VBtnToggle.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VBtnToggle/VBtnToggle.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VBtnToggle/VBtnToggle.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VBtnToggle/VBtnToggle.js
+ @ ./node_modules/vuetify/lib/components/VBtnToggle/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCalendar/VCalendarDaily.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCalendar/VCalendarDaily.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCalendar/VCalendarDaily.sass 4:14-128
+ @ ./node_modules/vuetify/lib/components/VCalendar/VCalendarDaily.js
+ @ ./node_modules/vuetify/lib/components/VCalendar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCalendar/VCalendarWeekly.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCalendar/VCalendarWeekly.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCalendar/VCalendarWeekly.sass 4:14-129
+ @ ./node_modules/vuetify/lib/components/VCalendar/VCalendarWeekly.js
+ @ ./node_modules/vuetify/lib/components/VCalendar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCarousel/VCarousel.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCarousel/VCarousel.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCarousel/VCarousel.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VCarousel/VCarousel.js
+ @ ./node_modules/vuetify/lib/components/VCarousel/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCard/VCard.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCard/VCard.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCard/VCard.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VCard/VCard.js
+ @ ./node_modules/vuetify/lib/components/VCard/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VColorPicker/VColorPicker.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VColorPicker/VColorPicker.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VColorPicker/VColorPicker.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPicker.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VColorPicker/VColorPickerCanvas.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VColorPicker/VColorPickerCanvas.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VColorPicker/VColorPickerCanvas.sass 4:14-132
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPickerCanvas.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VColorPicker/VColorPickerSwatches.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VColorPicker/VColorPickerSwatches.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VColorPicker/VColorPickerSwatches.sass 4:14-134
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPickerSwatches.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VChipGroup/VChipGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VChipGroup/VChipGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VChipGroup/VChipGroup.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VChipGroup/VChipGroup.js
+ @ ./node_modules/vuetify/lib/components/VChipGroup/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCheckbox/VCheckbox.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCheckbox/VCheckbox.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCheckbox/VCheckbox.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VCheckbox/VCheckbox.js
+ @ ./node_modules/vuetify/lib/components/VCheckbox/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCheckbox/VSimpleCheckbox.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCheckbox/VSimpleCheckbox.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCheckbox/VSimpleCheckbox.sass 4:14-129
+ @ ./node_modules/vuetify/lib/components/VCheckbox/VSimpleCheckbox.js
+ @ ./node_modules/vuetify/lib/components/VCheckbox/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VChip/VChip.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VChip/VChip.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VChip/VChip.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VChip/VChip.js
+ @ ./node_modules/vuetify/lib/components/VChip/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VContent/VContent.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VContent/VContent.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VContent/VContent.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VContent/VContent.js
+ @ ./node_modules/vuetify/lib/components/VContent/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCounter/VCounter.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCounter/VCounter.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCounter/VCounter.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VCounter/VCounter.js
+ @ ./node_modules/vuetify/lib/components/VCounter/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataIterator/VDataFooter.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataIterator/VDataFooter.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataIterator/VDataFooter.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VDataIterator/VDataFooter.js
+ @ ./node_modules/vuetify/lib/components/VDataIterator/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataTable/VDataTableHeader.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataTable/VDataTableHeader.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataTable/VDataTableHeader.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VDataTable/VDataTableHeader.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataTable/VDataTable.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataTable/VDataTable.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataTable/VDataTable.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VDataTable/VDataTable.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataTable/VEditDialog.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataTable/VEditDialog.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataTable/VEditDialog.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VDataTable/VEditDialog.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDialog/VDialog.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDialog/VDialog.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDialog/VDialog.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VDialog/VDialog.js
+ @ ./node_modules/vuetify/lib/components/VDialog/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDivider/VDivider.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDivider/VDivider.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDivider/VDivider.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VDivider/VDivider.js
+ @ ./node_modules/vuetify/lib/components/VDivider/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VExpansionPanel/VExpansionPanel.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VExpansionPanel/VExpansionPanel.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VExpansionPanel/VExpansionPanel.sass 4:14-129
+ @ ./node_modules/vuetify/lib/components/VExpansionPanel/VExpansionPanels.js
+ @ ./node_modules/vuetify/lib/components/VExpansionPanel/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VFileInput/VFileInput.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VFileInput/VFileInput.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VFileInput/VFileInput.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VFileInput/VFileInput.js
+ @ ./node_modules/vuetify/lib/components/VFileInput/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VFooter/VFooter.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VFooter/VFooter.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VFooter/VFooter.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VFooter/VFooter.js
+ @ ./node_modules/vuetify/lib/components/VFooter/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VGrid/_grid.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VGrid/_grid.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VGrid/_grid.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VGrid/VContainer.js
+ @ ./node_modules/vuetify/lib/components/VGrid/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VIcon/VIcon.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VIcon/VIcon.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VIcon/VIcon.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VIcon/VIcon.js
+ @ ./node_modules/vuetify/lib/components/VIcon/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VInput/VInput.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VInput/VInput.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VInput/VInput.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VInput/VInput.js
+ @ ./node_modules/vuetify/lib/components/VInput/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VLabel/VLabel.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VLabel/VLabel.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VLabel/VLabel.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VLabel/VLabel.js
+ @ ./node_modules/vuetify/lib/components/VLabel/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VImg/VImg.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VImg/VImg.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VImg/VImg.sass 4:14-118
+ @ ./node_modules/vuetify/lib/components/VImg/VImg.js
+ @ ./node_modules/vuetify/lib/components/VImg/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VMenu/VMenu.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VMenu/VMenu.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VMenu/VMenu.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VMenu/VMenu.js
+ @ ./node_modules/vuetify/lib/components/VMenu/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VMessages/VMessages.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VMessages/VMessages.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VMessages/VMessages.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VMessages/VMessages.js
+ @ ./node_modules/vuetify/lib/components/VMessages/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VNavigationDrawer/VNavigationDrawer.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VNavigationDrawer/VNavigationDrawer.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VNavigationDrawer/VNavigationDrawer.sass 4:14-131
+ @ ./node_modules/vuetify/lib/components/VNavigationDrawer/VNavigationDrawer.js
+ @ ./node_modules/vuetify/lib/components/VNavigationDrawer/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VOverflowBtn/VOverflowBtn.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VOverflowBtn/VOverflowBtn.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VOverflowBtn/VOverflowBtn.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VOverflowBtn/VOverflowBtn.js
+ @ ./node_modules/vuetify/lib/components/VOverflowBtn/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/directives/ripple/VRipple.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/directives/ripple/VRipple.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/directives/ripple/VRipple.sass 4:14-121
+ @ ./node_modules/vuetify/lib/directives/ripple/index.js
+ @ ./node_modules/vuetify/lib/directives/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VPagination/VPagination.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VPagination/VPagination.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VPagination/VPagination.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VPagination/VPagination.js
+ @ ./node_modules/vuetify/lib/components/VPagination/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSheet/VSheet.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSheet/VSheet.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSheet/VSheet.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VSheet/VSheet.js
+ @ ./node_modules/vuetify/lib/components/VSheet/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VParallax/VParallax.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VParallax/VParallax.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VParallax/VParallax.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VParallax/VParallax.js
+ @ ./node_modules/vuetify/lib/components/VParallax/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VPicker/VPicker.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VPicker/VPicker.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VPicker/VPicker.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VPicker/VPicker.js
+ @ ./node_modules/vuetify/lib/components/VPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VProgressCircular/VProgressCircular.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VProgressCircular/VProgressCircular.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VProgressCircular/VProgressCircular.sass 4:14-131
+ @ ./node_modules/vuetify/lib/components/VProgressCircular/VProgressCircular.js
+ @ ./node_modules/vuetify/lib/components/VProgressCircular/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VRangeSlider/VRangeSlider.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VRangeSlider/VRangeSlider.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VRangeSlider/VRangeSlider.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VRangeSlider/VRangeSlider.js
+ @ ./node_modules/vuetify/lib/components/VRangeSlider/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTextField/VTextField.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTextField/VTextField.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTextField/VTextField.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VSelect/VSelect.js
+ @ ./node_modules/vuetify/lib/components/VSelect/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VRating/VRating.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VRating/VRating.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VRating/VRating.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VRating/VRating.js
+ @ ./node_modules/vuetify/lib/components/VRating/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VProgressLinear/VProgressLinear.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VProgressLinear/VProgressLinear.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VProgressLinear/VProgressLinear.sass 4:14-129
+ @ ./node_modules/vuetify/lib/components/VProgressLinear/VProgressLinear.js
+ @ ./node_modules/vuetify/lib/components/VProgressLinear/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VResponsive/VResponsive.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VResponsive/VResponsive.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VResponsive/VResponsive.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VResponsive/VResponsive.js
+ @ ./node_modules/vuetify/lib/components/VResponsive/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSlider/VSlider.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSlider/VSlider.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSlider/VSlider.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VSlider/VSlider.js
+ @ ./node_modules/vuetify/lib/components/VSlider/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSnackbar/VSnackbar.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSnackbar/VSnackbar.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSnackbar/VSnackbar.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VSnackbar/VSnackbar.js
+ @ ./node_modules/vuetify/lib/components/VSnackbar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSlideGroup/VSlideGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSlideGroup/VSlideGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSlideGroup/VSlideGroup.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.js
+ @ ./node_modules/vuetify/lib/components/VSlideGroup/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSpeedDial/VSpeedDial.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSpeedDial/VSpeedDial.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSpeedDial/VSpeedDial.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VSpeedDial/VSpeedDial.js
+ @ ./node_modules/vuetify/lib/components/VSpeedDial/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSubheader/VSubheader.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSubheader/VSubheader.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSubheader/VSubheader.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VSubheader/VSubheader.js
+ @ ./node_modules/vuetify/lib/components/VSubheader/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTabs/VTabs.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTabs/VTabs.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTabs/VTabs.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VTabs/VTabs.js
+ @ ./node_modules/vuetify/lib/components/VTabs/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTextarea/VTextarea.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTextarea/VTextarea.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTextarea/VTextarea.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VTextarea/VTextarea.js
+ @ ./node_modules/vuetify/lib/components/VTextarea/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSystemBar/VSystemBar.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSystemBar/VSystemBar.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSystemBar/VSystemBar.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VSystemBar/VSystemBar.js
+ @ ./node_modules/vuetify/lib/components/VSystemBar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTooltip/VTooltip.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTooltip/VTooltip.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTooltip/VTooltip.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VTooltip/VTooltip.js
+ @ ./node_modules/vuetify/lib/components/VTooltip/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VToolbar/VToolbar.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VToolbar/VToolbar.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VToolbar/VToolbar.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VToolbar/VToolbar.js
+ @ ./node_modules/vuetify/lib/components/VToolbar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTimeline/VTimeline.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTimeline/VTimeline.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTimeline/VTimeline.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VTimeline/VTimeline.js
+ @ ./node_modules/vuetify/lib/components/VTimeline/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTreeview/VTreeview.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTreeview/VTreeview.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTreeview/VTreeview.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VTreeview/VTreeview.js
+ @ ./node_modules/vuetify/lib/components/VTreeview/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VWindow/VWindow.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VWindow/VWindow.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VWindow/VWindow.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VWindow/VWindow.js
+ @ ./node_modules/vuetify/lib/components/VWindow/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTimePicker/VTimePickerTitle.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTimePicker/VTimePickerTitle.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTimePicker/VTimePickerTitle.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VTimePicker/VTimePickerTitle.js
+ @ ./node_modules/vuetify/lib/components/VTimePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDatePicker/VDatePickerTitle.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDatePicker/VDatePickerTitle.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDatePicker/VDatePickerTitle.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePickerTitle.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePicker.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VTimePicker/VTimePickerClock.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VTimePicker/VTimePickerClock.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VTimePicker/VTimePickerClock.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VTimePicker/VTimePickerClock.js
+ @ ./node_modules/vuetify/lib/components/VTimePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VCalendar/mixins/calendar-with-events.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VCalendar/mixins/calendar-with-events.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VCalendar/mixins/calendar-with-events.sass 4:14-140
+ @ ./node_modules/vuetify/lib/components/VCalendar/mixins/calendar-with-events.js
+ @ ./node_modules/vuetify/lib/components/VCalendar/VCalendar.js
+ @ ./node_modules/vuetify/lib/components/VCalendar/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VItemGroup/VItemGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VItemGroup/VItemGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VItemGroup/VItemGroup.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VItemGroup/VItemGroup.js
+ @ ./node_modules/vuetify/lib/components/VWindow/VWindow.js
+ @ ./node_modules/vuetify/lib/components/VWindow/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSwitch/VSwitch.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSwitch/VSwitch.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSwitch/VSwitch.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VSwitch/VSwitch.js
+ @ ./node_modules/vuetify/lib/components/VSwitch/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VSelect/VSelect.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VSelect/VSelect.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VSelect/VSelect.sass 4:14-121
+ @ ./node_modules/vuetify/lib/components/VSelect/VSelect.js
+ @ ./node_modules/vuetify/lib/components/VSelect/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VGrid/VGrid.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VGrid/VGrid.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VGrid/VGrid.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VGrid/VContainer.js
+ @ ./node_modules/vuetify/lib/components/VGrid/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VRadioGroup/VRadioGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VRadioGroup/VRadioGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VRadioGroup/VRadioGroup.sass 4:14-125
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/VRadioGroup.js
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDatePicker/VDatePickerYears.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDatePicker/VDatePickerYears.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDatePicker/VDatePickerYears.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePickerYears.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePicker.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDatePicker/VDatePickerHeader.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDatePicker/VDatePickerHeader.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDatePicker/VDatePickerHeader.sass 4:14-131
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePickerHeader.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePicker.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataTable/VSimpleTable.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataTable/VSimpleTable.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataTable/VSimpleTable.sass 4:14-126
+ @ ./node_modules/vuetify/lib/components/VDataTable/VSimpleTable.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/VDataTable.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VColorPicker/VColorPickerEdit.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VColorPicker/VColorPickerEdit.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VColorPicker/VColorPickerEdit.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPickerEdit.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPicker.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDatePicker/VDatePickerTable.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDatePicker/VDatePickerTable.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDatePicker/VDatePickerTable.sass 4:14-130
+ @ ./node_modules/vuetify/lib/components/VDatePicker/mixins/date-picker-table.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePickerMonthTable.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/VDatePicker.js
+ @ ./node_modules/vuetify/lib/components/VDatePicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VColorPicker/VColorPickerPreview.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VColorPicker/VColorPickerPreview.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VColorPicker/VColorPickerPreview.sass 4:14-133
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPickerPreview.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/VColorPicker.js
+ @ ./node_modules/vuetify/lib/components/VColorPicker/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VStepper/VStepper.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VStepper/VStepper.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VStepper/VStepper.sass 4:14-122
+ @ ./node_modules/vuetify/lib/components/VStepper/VStepper.js
+ @ ./node_modules/vuetify/lib/components/VStepper/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VRadioGroup/VRadio.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VRadioGroup/VRadio.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VRadioGroup/VRadio.sass 4:14-120
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/VRadio.js
+ @ ./node_modules/vuetify/lib/components/VRadioGroup/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VList/VListItemGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VList/VListItemGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VList/VListItemGroup.sass 4:14-128
+ @ ./node_modules/vuetify/lib/components/VList/VListItemGroup.js
+ @ ./node_modules/vuetify/lib/components/VList/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VList/VListItem.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VList/VListItem.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VList/VListItem.sass 4:14-123
+ @ ./node_modules/vuetify/lib/components/VList/VListItem.js
+ @ ./node_modules/vuetify/lib/components/VList/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VList/VListGroup.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VList/VListGroup.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VList/VListGroup.sass 4:14-124
+ @ ./node_modules/vuetify/lib/components/VList/VListGroup.js
+ @ ./node_modules/vuetify/lib/components/VList/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VList/VList.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VList/VList.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VList/VList.sass 4:14-119
+ @ ./node_modules/vuetify/lib/components/VList/VList.js
+ @ ./node_modules/vuetify/lib/components/VList/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+
+ERROR in ./node_modules/vuetify/src/components/VDataTable/VVirtualTable.sass (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js??ref--3-2!./node_modules/vuetify/src/components/VDataTable/VVirtualTable.sass)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+
+    @content($material-light)
+   ^
+      Invalid CSS after "    @content": expected "}", was "($material-light); "
+      in /home/csimon/src/sidebar/node_modules/vuetify/src/styles/tools/_theme.sass (line 3, column 5)
+ @ ./node_modules/vuetify/src/components/VDataTable/VVirtualTable.sass 4:14-127
+ @ ./node_modules/vuetify/lib/components/VDataTable/VVirtualTable.js
+ @ ./node_modules/vuetify/lib/components/VDataTable/index.js
+ @ ./node_modules/vuetify/lib/components/index.js
+ @ ./node_modules/vuetify/lib/index.js
+ @ ./src/plugins/vuetify.js
+ @ ./src/main.js
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
