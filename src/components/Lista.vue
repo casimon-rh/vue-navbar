@@ -1,5 +1,5 @@
 <template lang="pug">
-  v-card.mx-auto(max-width="400", tile)
+  v-card.mx-auto(max-width="480", tile)
     template(v-for="elem in list")
       ElementoLista(v-bind:text="elem")
 </template>
@@ -22,3 +22,12 @@ export default {
   }
 }
 </script>
+<style lang="sass">
+.v-card
+  display: grid
+  @media only screen and (max-width: 480px)
+    grid-auto-flow: row
+    overflow-x: auto
+    grid-template-columns: repeat(6, 100px)
+
+</style>
