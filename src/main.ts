@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import vuetify from './plugins/vuetify'
-import './registerServiceWorker'
-
+// @ts-ignore
+import vuetify from './plugins/vuetify.ts'
 Vue.config.productionTip = false
 
 new Vue({
